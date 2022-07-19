@@ -3,4 +3,9 @@ Money Track: Ever wonder where all your money is going? Having trouble keeping t
 
 This App Helped me to learn:
 + How to Retrieve and Save date inside CoreData
+
+
+
+
+
 ![Simulator Screen Recording - iPhone 12 - 2022-07-19 at 17 20 21](https://user-images.githubusercontent.com/40813000/179858776-dc5fc1c2-793d-4f27-9f10-0b27163fafcc.gif)
