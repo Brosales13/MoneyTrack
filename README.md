@@ -1,8 +1,8 @@
 # MoneyTrack
 Money Track: Ever wonder where all your money is going? Having trouble keeping track how much you spent in the last few months? With Money Track you can keep track of every dollar you have earned or spent.
 
-This App Helped me to learn:
-+ How to Retrieve and Save date inside CoreData using MVC Architecture and UIKit
+This App was made to learn about:
++ How to Retrieve and Save data inside of CoreData using MVC Architecture and UIKit
 
 
 
