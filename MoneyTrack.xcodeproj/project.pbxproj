@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A14D2002885C1CA001BA83F /* CurveAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A14D1FF2885C1CA001BA83F /* CurveAlgorithm.swift */; };
+		9A14D2022885C1F6001BA83F /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A14D2012885C1F6001BA83F /* LineChart.swift */; };
+		9A14D2042885C21D001BA83F /* DotCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A14D2032885C21D001BA83F /* DotCALayer.swift */; };
+		9A14D2062885CA33001BA83F /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A14D2052885CA33001BA83F /* LineChartViewController.swift */; };
 		DE147C7A28551FE400C6D02B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE147C7928551FE400C6D02B /* AppDelegate.swift */; };
 		DE147C7C28551FE400C6D02B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE147C7B28551FE400C6D02B /* SceneDelegate.swift */; };
 		DE147C7E28551FE400C6D02B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE147C7D28551FE400C6D02B /* ViewController.swift */; };
@@ -14,9 +18,21 @@
 		DE147C8428551FE400C6D02B /* MoneyTrack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE147C8228551FE400C6D02B /* MoneyTrack.xcdatamodeld */; };
 		DE147C8628551FE600C6D02B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE147C8528551FE600C6D02B /* Assets.xcassets */; };
 		DE147C8928551FE600C6D02B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE147C8728551FE600C6D02B /* LaunchScreen.storyboard */; };
+		DE147C9E2859725F00C6D02B /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE147C9D2859725F00C6D02B /* Transaction.swift */; };
+		DE147CA0285A9F4D00C6D02B /* MoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE147C9F285A9F4D00C6D02B /* MoneyViewController.swift */; };
+		DE147CA2285C06B900C6D02B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE147CA1285C06B900C6D02B /* TableViewCell.swift */; };
+		DE147CA82861568A00C6D02B /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE147CA72861568A00C6D02B /* DateViewController.swift */; };
+		DE147CAA2861577A00C6D02B /* DatePairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE147CA92861577A00C6D02B /* DatePairs.swift */; };
+		DE147CAD2870F4CE00C6D02B /* DateIsIncomeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE147CAC2870F4CE00C6D02B /* DateIsIncomeValue.swift */; };
+		DE147CB02871231C00C6D02B /* DataInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE147CAE2871231C00C6D02B /* DataInfo+CoreDataClass.swift */; };
+		DE147CB12871231C00C6D02B /* DataInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE147CAF2871231C00C6D02B /* DataInfo+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A14D1FF2885C1CA001BA83F /* CurveAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveAlgorithm.swift; sourceTree = "<group>"; };
+		9A14D2012885C1F6001BA83F /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		9A14D2032885C21D001BA83F /* DotCALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotCALayer.swift; sourceTree = "<group>"; };
+		9A14D2052885CA33001BA83F /* LineChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
 		DE147C7628551FE400C6D02B /* MoneyTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE147C7928551FE400C6D02B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE147C7B28551FE400C6D02B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +42,14 @@
 		DE147C8528551FE600C6D02B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE147C8828551FE600C6D02B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE147C8A28551FE600C6D02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE147C9D2859725F00C6D02B /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		DE147C9F285A9F4D00C6D02B /* MoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyViewController.swift; sourceTree = "<group>"; };
+		DE147CA1285C06B900C6D02B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		DE147CA72861568A00C6D02B /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		DE147CA92861577A00C6D02B /* DatePairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePairs.swift; sourceTree = "<group>"; };
+		DE147CAC2870F4CE00C6D02B /* DateIsIncomeValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateIsIncomeValue.swift; sourceTree = "<group>"; };
+		DE147CAE2871231C00C6D02B /* DataInfo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DE147CAF2871231C00C6D02B /* DataInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +66,8 @@
 		DE147C6D28551FE400C6D02B = {
 			isa = PBXGroup;
 			children = (
+				DE147CAE2871231C00C6D02B /* DataInfo+CoreDataClass.swift */,
+				DE147CAF2871231C00C6D02B /* DataInfo+CoreDataProperties.swift */,
 				DE147C7828551FE400C6D02B /* MoneyTrack */,
 				DE147C7728551FE400C6D02B /* Products */,
 			);
@@ -60,14 +86,48 @@
 			children = (
 				DE147C7928551FE400C6D02B /* AppDelegate.swift */,
 				DE147C7B28551FE400C6D02B /* SceneDelegate.swift */,
-				DE147C7D28551FE400C6D02B /* ViewController.swift */,
-				DE147C7F28551FE400C6D02B /* Main.storyboard */,
+				DE147C9928553C8400C6D02B /* View */,
+				DE147C94285521BC00C6D02B /* Model */,
+				DE147C9A28553CBA00C6D02B /* Controllers */,
 				DE147C8528551FE600C6D02B /* Assets.xcassets */,
 				DE147C8728551FE600C6D02B /* LaunchScreen.storyboard */,
 				DE147C8A28551FE600C6D02B /* Info.plist */,
 				DE147C8228551FE400C6D02B /* MoneyTrack.xcdatamodeld */,
 			);
 			path = MoneyTrack;
+			sourceTree = "<group>";
+		};
+		DE147C94285521BC00C6D02B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE147C9D2859725F00C6D02B /* Transaction.swift */,
+				DE147CA92861577A00C6D02B /* DatePairs.swift */,
+				DE147CAC2870F4CE00C6D02B /* DateIsIncomeValue.swift */,
+				9A14D1FF2885C1CA001BA83F /* CurveAlgorithm.swift */,
+				9A14D2012885C1F6001BA83F /* LineChart.swift */,
+				9A14D2032885C21D001BA83F /* DotCALayer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE147C9928553C8400C6D02B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE147C7F28551FE400C6D02B /* Main.storyboard */,
+				DE147CA1285C06B900C6D02B /* TableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE147C9A28553CBA00C6D02B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE147C7D28551FE400C6D02B /* ViewController.swift */,
+				DE147C9F285A9F4D00C6D02B /* MoneyViewController.swift */,
+				DE147CA72861568A00C6D02B /* DateViewController.swift */,
+				9A14D2052885CA33001BA83F /* LineChartViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +202,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE147C8428551FE400C6D02B /* MoneyTrack.xcdatamodeld in Sources */,
+				9A14D2062885CA33001BA83F /* LineChartViewController.swift in Sources */,
+				DE147C9E2859725F00C6D02B /* Transaction.swift in Sources */,
+				DE147CA0285A9F4D00C6D02B /* MoneyViewController.swift in Sources */,
 				DE147C7E28551FE400C6D02B /* ViewController.swift in Sources */,
+				9A14D2022885C1F6001BA83F /* LineChart.swift in Sources */,
+				DE147CB02871231C00C6D02B /* DataInfo+CoreDataClass.swift in Sources */,
+				DE147CA2285C06B900C6D02B /* TableViewCell.swift in Sources */,
+				9A14D2002885C1CA001BA83F /* CurveAlgorithm.swift in Sources */,
+				DE147CAA2861577A00C6D02B /* DatePairs.swift in Sources */,
 				DE147C7A28551FE400C6D02B /* AppDelegate.swift in Sources */,
+				9A14D2042885C21D001BA83F /* DotCALayer.swift in Sources */,
+				DE147CAD2870F4CE00C6D02B /* DateIsIncomeValue.swift in Sources */,
 				DE147C7C28551FE400C6D02B /* SceneDelegate.swift in Sources */,
+				DE147CA82861568A00C6D02B /* DateViewController.swift in Sources */,
+				DE147CB12871231C00C6D02B /* DataInfo+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +369,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,7 +381,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,6 +398,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +410,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
