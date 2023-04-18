@@ -46,7 +46,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <datePicker contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="yBB-78-lcb">
-                                <rect key="frame" x="82" y="751" width="430" height="34"/>
+                                <rect key="frame" x="82" y="750.66666666666663" width="430" height="34.333333333333371"/>
                             </datePicker>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxm-qk-aTh">
                                 <rect key="frame" x="88" y="343.33333333333331" width="107" height="21"/>
@@ -72,15 +72,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dollar_sign" translatesAutoresizingMaskIntoConstraints="NO" id="lcJ-ad-ShH">
+                                <rect key="frame" x="44" y="372" width="42" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="Zr3-RG-mjf"/>
+                                    <constraint firstAttribute="height" constant="80" id="ePq-dv-WAd"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="drz-hx-8JI"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="Ewb-AW-HuO" firstAttribute="leading" secondItem="lcJ-ad-ShH" secondAttribute="trailing" constant="2" id="1zi-g7-uCw"/>
                             <constraint firstItem="KPH-1x-kOf" firstAttribute="leading" secondItem="drz-hx-8JI" secondAttribute="leading" constant="88" id="2MT-Rf-Hdq"/>
                             <constraint firstItem="Bvc-zg-XYo" firstAttribute="top" secondItem="qof-cx-C6n" secondAttribute="bottom" constant="74" id="7ig-7o-TmY"/>
                             <constraint firstItem="vxm-qk-aTh" firstAttribute="top" secondItem="Kga-60-JBK" secondAttribute="bottom" constant="20" id="Cwf-nN-fha"/>
                             <constraint firstItem="qof-cx-C6n" firstAttribute="leading" secondItem="drz-hx-8JI" secondAttribute="leading" constant="60" id="DGs-qW-p7V"/>
                             <constraint firstItem="z3f-16-3dq" firstAttribute="leading" secondItem="diC-NX-gmW" secondAttribute="leadingMargin" constant="68" id="IyK-ZB-4Sj"/>
+                            <constraint firstItem="lcJ-ad-ShH" firstAttribute="leading" secondItem="diC-NX-gmW" secondAttribute="leading" constant="44" id="NOY-KW-5ea"/>
                             <constraint firstItem="Bvc-zg-XYo" firstAttribute="leading" secondItem="diC-NX-gmW" secondAttribute="leadingMargin" constant="116" id="Piw-o7-dlC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Bvc-zg-XYo" secondAttribute="trailing" constant="115" id="RPQ-5i-2EP"/>
                             <constraint firstItem="anA-v7-5At" firstAttribute="leading" secondItem="diC-NX-gmW" secondAttribute="leadingMargin" constant="41" id="SaN-PP-vAr"/>
@@ -89,7 +98,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="vxm-qk-aTh" secondAttribute="trailing" constant="215" id="UVP-lg-jVg"/>
                             <constraint firstItem="vxm-qk-aTh" firstAttribute="leading" secondItem="diC-NX-gmW" secondAttribute="leadingMargin" constant="68" id="VWv-xx-ote"/>
                             <constraint firstAttribute="bottom" secondItem="Bvc-zg-XYo" secondAttribute="bottom" constant="30" id="WHd-zl-TWI"/>
+                            <constraint firstItem="anA-v7-5At" firstAttribute="top" secondItem="lcJ-ad-ShH" secondAttribute="bottom" constant="211.33000000000001" id="YgX-7K-cj4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="anA-v7-5At" secondAttribute="trailing" constant="41" id="aWL-y3-DIf"/>
+                            <constraint firstItem="lcJ-ad-ShH" firstAttribute="top" secondItem="Kga-60-JBK" secondAttribute="bottom" constant="48.670000000000002" id="bXO-rO-9Hb"/>
                             <constraint firstItem="yBB-78-lcb" firstAttribute="top" secondItem="anA-v7-5At" secondAttribute="bottom" constant="56.5" id="g3H-hG-EKh"/>
                             <constraint firstItem="KPH-1x-kOf" firstAttribute="top" secondItem="z3f-16-3dq" secondAttribute="bottom" constant="8" id="g6N-gv-aQc"/>
                             <constraint firstAttribute="trailing" secondItem="KPH-1x-kOf" secondAttribute="trailing" constant="88" id="hLy-I9-FM9"/>
@@ -112,7 +123,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OB8-HC-j0A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-204.34782608695653" y="953.57142857142856"/>
+            <point key="canvasLocation" x="-205.11627906976744" y="953.43347639484989"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -142,7 +153,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97c-Ip-Dte">
-                                                    <rect key="frame" x="20" y="11" width="59" height="33"/>
+                                                    <rect key="frame" x="20" y="11" width="109" height="33"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -227,7 +238,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="eUN-aF-wcv" secondAttribute="trailing" constant="50" id="48O-BJ-qw9"/>
                             <constraint firstItem="qeV-ry-OhW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="400" id="9rx-8a-Ojx"/>
@@ -267,7 +278,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-204" y="104"/>
+            <point key="canvasLocation" x="-205.11627906976744" y="103.6480686695279"/>
         </scene>
         <!--Line Chart View Controller-->
         <scene sceneID="AmC-N3-f5W">
@@ -279,7 +290,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0qk-AS-acm" userLabel="LineChart" customClass="LineChart" customModule="MoneyTrack" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="430" height="922"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9z2-5q-Wyo"/>
@@ -308,14 +319,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <datePicker contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="uKk-s4-5tZ">
-                                <rect key="frame" x="285" y="450" width="125" height="34"/>
+                                <rect key="frame" x="284.66666666666669" y="449.66666666666669" width="125.33333333333331" height="34.666666666666686"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34.5" id="M0p-17-rRj"/>
                                     <constraint firstAttribute="width" constant="125.5" id="mQT-Dr-ole"/>
                                 </constraints>
                             </datePicker>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="H58-Gx-9YU">
-                                <rect key="frame" x="285" y="619" width="125" height="34"/>
+                                <rect key="frame" x="284.66666666666669" y="618.66666666666663" width="125.33333333333331" height="34.666666666666629"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="125.5" id="WdD-yc-ARO"/>
                                     <constraint firstAttribute="height" constant="34.5" id="rlX-Mp-Af1"/>
@@ -364,7 +375,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Vzi-TD-Dec"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="CI4-67-Oeg" firstAttribute="top" secondItem="KBH-0q-vaD" secondAttribute="bottom" constant="134.5" id="D5Q-Yt-iu8"/>
                             <constraint firstAttribute="bottom" secondItem="Cie-Ee-u7T" secondAttribute="bottom" constant="100" id="NQA-iH-Rj8"/>
@@ -395,6 +406,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="dollar_sign" width="512" height="512"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

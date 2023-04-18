@@ -14,16 +14,38 @@ class MoneyViewController: UIViewController {
     @IBOutlet weak var choiceButton: UISegmentedControl!
     @IBOutlet weak var nameTextField: UITextField!
     
+    private var navigationBar: UINavigationBar!
+    private var customNavigationItem: UINavigationItem!
+    
     var delegate: MoneyDelegate?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setNavigationBar()
         searchTextField.delegate = self
         nameTextField.delegate = self
+        
     }
+    
+    func setNavigationBar() {
+            let navigationBar = UINavigationBar(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 38))
+            navigationBar.backgroundColor = .darkGray
+            view.addSubview(navigationBar)
+            customNavigationItem = UINavigationItem()
+            customNavigationItem.title = ""
+            let leftBarButton = UIBarButtonItem(image: UIImage(systemName: "xmark.circle.fill"), style: .plain, target: self, action: #selector(done))
+            customNavigationItem.leftBarButtonItem = leftBarButton
+            navigationBar.items = [customNavigationItem]
+            self.view.addSubview(navigationBar)
+            
+        }
+        
+        @objc func done() {
+            dismiss(animated: true, completion: nil)
+            print("done")
+        }
 }
-
 
 //MARK: - UITextFieldDelegate (all about the search bar)
 extension MoneyViewController: UITextFieldDelegate {

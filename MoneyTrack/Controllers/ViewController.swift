@@ -37,6 +37,9 @@ class ViewController: UIViewController{
     var rangeTitle: String = ""
     //checks if the date feature is on
     var isDateOn: Bool = false
+    
+    private var navigationBar: UINavigationBar!
+    private var customNavigationItem: UINavigationItem!
 
     
     //Responsible for holding all info from coreData
@@ -44,6 +47,7 @@ class ViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setNavigationBar()
         tableView.dataSource = self
         tableView.delegate = self
      
@@ -89,6 +93,17 @@ class ViewController: UIViewController{
         }
         fetchInfo()
         updateUITotals()
+    }
+    
+    
+    func setNavigationBar() {
+        let navigationBar = UINavigationBar(frame: CGRect(x: 0, y: 55, width: view.frame.size.width, height: 44))
+        navigationBar.backgroundColor = .darkGray
+        view.addSubview(navigationBar)
+        customNavigationItem = UINavigationItem()
+        customNavigationItem.title = "Money Track"
+        navigationBar.items = [customNavigationItem]
+        self.view.addSubview(navigationBar)
     }
    
     func updateUITotals() {
